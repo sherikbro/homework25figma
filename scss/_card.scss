@@ -1,0 +1,33 @@
+.cards{
+    width: 100%;
+    padding: 50px 140px;
+    display: flex;
+    gap: 100px;
+    .card-img{
+        flex: 1;
+        img{
+            width: 100%;
+        }
+    }
+    .card-info{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 48px;
+        h5{
+            color: white;
+            font-size: 28px;
+        }
+        h2{
+            font-size: 56px;
+            color: white;
+        }
+        p{
+            font-size: 25px;
+            color: white;
+            width: 80%;
+            font-weight: 100;
+        }
+    }
+}

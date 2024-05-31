@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    i{
+        cursor: pointer;
+    }
+    button{
+        cursor: pointer;
+    }
+}
+
+main{
+    width: 100%;
+
+    background-color: #1F2E35;
+    padding: 50px 0 100px;
+}
+
+// .body.active{
+//     header{
+//         background-color: white;
+//         nav{
+//             ul{
+//                 li{
+//                     a{
+//                         color: #1F2E35;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+//     main{
+//         background-color: white;
+//         .hero{
+
+//         }
+//     }
+// }
