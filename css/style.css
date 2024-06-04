@@ -967,6 +967,62 @@ footer .footer-boxes .footer-right .footer-btn {
 footer .footer-last-info {
   font-size: 18px;
   text-align: center;
-  color: white;
+  color: rgba(255, 255, 255, 0.442);
   padding-top: 50px;
+}
+
+@media (max-width: 1400px) {
+  footer {
+    padding: 50px;
+  }
+}
+@media (max-width: 1140px) {
+  footer {
+    padding: 50px;
+  }
+  footer .footer-boxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    align-content: center;
+    margin-bottom: 50px;
+  }
+  footer .footer-boxes .footer-logo {
+    align-items: end;
+  }
+  footer .footer-boxes .footer-ul2 {
+    align-items: end;
+  }
+}
+@media (max-width: 768px) {
+  footer {
+    padding: 20px;
+  }
+  footer .footer-boxes {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    align-content: center;
+    margin-bottom: 50px;
+  }
+  footer .footer-boxes .footer-logo {
+    align-items: center;
+  }
+  footer .footer-boxes ul {
+    align-items: center;
+  }
+  footer .footer-boxes .footer-ul2 {
+    align-items: center;
+  }
+  footer .footer-boxes .footer-right {
+    align-items: center;
+    text-align: center;
+  }
+  footer .footer-boxes .footer-right .footer-input {
+    width: 50%;
+  }
 }
