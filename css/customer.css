@@ -300,3 +300,38 @@
     font-size: 18px;
   }
 }
+.offerr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+  padding: 50px 120px;
+}
+.offerr h1 {
+  color: white;
+  font-size: 40px;
+}
+.offerr .offerr-items {
+  width: 100%;
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+}
+.offerr .offerr-items .offerr-item {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.offerr .offerr-items .offerr-item img {
+  width: 100px;
+}
+.offerr .offerr-items .offerr-item h3 {
+  font-size: 28px;
+}
+.offerr .offerr-items .offerr-item p {
+  color: rgba(255, 255, 255, 0.598);
+}
