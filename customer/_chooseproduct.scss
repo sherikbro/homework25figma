@@ -1,0 +1,99 @@
+.chooseProduct{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #22343D;
+    padding: 50px 120px;
+    gap: 30px;
+    .choose-title{
+        text-align: center;
+        font-size: 48px;
+        color: white;
+    }
+    .choose-cards{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        .choose-card{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            text-align: center;
+            border: 2px solid lightgrey;
+            padding: 30px;
+            border-radius: 10px;
+            h2{
+                color: white;
+            }
+            p{
+                color: #FFFFFF;
+                font-weight: 100;
+            }
+        }
+    }
+}
+
+@media (max-width:1400px){
+    .chooseProduct{
+        padding: 50px;
+        gap: 30px;
+        .choose-title{
+            font-size: 48px;
+        }
+        .choose-cards{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            .choose-card{
+                gap: 20px;
+                padding: 30px;
+            }
+        }
+    }
+}
+@media (max-width:992px){
+    .chooseProduct{
+        padding: 30px;
+        gap: 30px;
+        .choose-title{
+            font-size: 48px;
+        }
+        .choose-cards{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            .choose-card{
+                margin: 0 auto;
+                gap: 20px;
+                padding: 30px;
+            }
+        }
+    }
+}
+@media (max-width:768px){
+    .chooseProduct{
+        padding: 30px;
+        gap: 30px;
+        .choose-title{
+            font-size: 48px;
+        }
+        .choose-cards{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            .choose-card{
+                margin: 0 auto;
+                gap: 20px;
+                padding: 30px;
+            }
+        }
+    }
+}

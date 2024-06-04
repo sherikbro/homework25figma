@@ -28,7 +28,6 @@ header {
   justify-content: center;
   position: sticky;
   top: 0;
-  gap: 20px;
   background-color: #1F2E35;
   z-index: 999;
 }
@@ -47,7 +46,7 @@ header nav {
 header nav .logo {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
 }
 header nav .logo span img {
   cursor: pointer;
@@ -129,6 +128,16 @@ header nav .nav-right {
   align-items: center;
   gap: 20px;
 }
+header nav .nav-right .userlogin {
+  background-color: gray;
+  border-radius: 50%;
+  border: none;
+  color: black;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  display: none;
+}
 header nav .nav-right .nav-btn {
   padding: 15px 40px;
   border: none;
@@ -180,12 +189,71 @@ header .nav22 p {
   color: #E4E4E4;
 }
 
-@media (max-width: 786px) {
+@media (max-width: 1400px) {
+  header {
+    padding: 0 50px;
+  }
+  header nav .nav-right {
+    gap: 10px;
+  }
+  header nav .nav-right .nav-links {
+    gap: 0;
+  }
+  header nav .nav-right .nav-links a {
+    padding: 5px 10px;
+    letter-spacing: 0;
+  }
+  header nav .nav-right .nav-btn {
+    padding: 10px 20px;
+  }
+  header nav .nav-right .nav-btn2 {
+    padding: 10px 20px;
+  }
+}
+@media (max-width: 992px) {
+  header {
+    padding: 0 30px;
+  }
+  header .logo:nth-child(1) {
+    width: 150px;
+  }
+  header .logo:nth-child(1) img {
+    width: 100%;
+  }
+  header nav .nav-right {
+    gap: 5px;
+  }
+  header nav .nav-right .nav-links {
+    gap: 0;
+  }
+  header nav .nav-right .nav-links a {
+    padding: 5px;
+    letter-spacing: 0;
+  }
+  header nav .nav-right .nav-btn {
+    padding: 7px 20px;
+    font-size: 16px;
+  }
+  header nav .nav-right .nav-btn2 {
+    padding: 7px 20px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 820px) {
   header {
     padding: 0 20px;
   }
   header nav ul .links1 {
     display: none;
+  }
+  header nav .nav-right {
+    gap: 15px;
+  }
+  header nav .nav-right .nav-btn, header nav .nav-right .nav-btn2 {
+    display: none;
+  }
+  header nav .nav-right .userlogin {
+    display: block;
   }
   header nav .nav-right .upp-btn {
     display: block;
