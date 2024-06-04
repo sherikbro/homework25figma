@@ -33,3 +33,46 @@
         }
     }
 }
+
+@media(max-width:1400px){
+    .offerr{
+        padding: 50px;
+        h1{
+            font-size: 36px;
+        }
+        .offerr-items{
+            gap: 120px;
+        }
+    }
+}
+@media(max-width:992px){
+    .offerr{
+        padding: 50px;
+        h1{
+            font-size: 32px;
+        }
+        .offerr-items{
+            gap: 50px;
+            .offerr-item{
+                gap: 20px;
+                img{
+                    width: 60px;
+                }
+            }
+        }
+    }
+}
+@media(max-width:576px){
+    .offerr{
+        padding: 20px;
+        h1{
+            font-size: 24px;
+        }
+        .offerr-items{
+            gap: 20px;
+            .offerr-item{
+                gap: 10px;
+            }
+        }
+    }
+}

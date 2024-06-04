@@ -335,3 +335,46 @@
 .offerr .offerr-items .offerr-item p {
   color: rgba(255, 255, 255, 0.598);
 }
+
+@media (max-width: 1400px) {
+  .offerr {
+    padding: 50px;
+  }
+  .offerr h1 {
+    font-size: 36px;
+  }
+  .offerr .offerr-items {
+    gap: 120px;
+  }
+}
+@media (max-width: 992px) {
+  .offerr {
+    padding: 50px;
+  }
+  .offerr h1 {
+    font-size: 32px;
+  }
+  .offerr .offerr-items {
+    gap: 50px;
+  }
+  .offerr .offerr-items .offerr-item {
+    gap: 20px;
+  }
+  .offerr .offerr-items .offerr-item img {
+    width: 60px;
+  }
+}
+@media (max-width: 576px) {
+  .offerr {
+    padding: 20px;
+  }
+  .offerr h1 {
+    font-size: 24px;
+  }
+  .offerr .offerr-items {
+    gap: 20px;
+  }
+  .offerr .offerr-items .offerr-item {
+    gap: 10px;
+  }
+}
