@@ -1,0 +1,119 @@
+.message{
+    width: 100%;
+    padding: 50px 300px;
+    form{
+        width: 100%;
+        padding: 40px;
+        border: 1px solid #464646;
+        background-color: #22343D;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        fieldset{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            border: none;
+            color: white;
+            font-size: 32px;
+            font-weight: 800;
+        }
+        input,textarea{
+            border: none;
+            outline: none;
+            padding: 15px;
+            color: grey;
+            width: 100%;
+        }
+        input{
+            font-size: 18px;
+            border-radius: 30px;
+        }
+        textarea{
+            resize: none;
+            font-size: 16px;
+            // border-radius: 10px;
+            height: 200px;
+
+        }
+        button{
+            padding: 15px 40px;
+            border-radius: 30px;
+            letter-spacing: 2px;
+            font-size: 22px;
+            border: none;
+            background-color: #02897A;
+            color: white;
+            cursor: pointer;
+            transition: 0.6s;
+            border: 1px solid transparent;
+            &:hover{
+                background-color: white;
+                color: #02897A;
+                border: 1px solid #02897A;
+            }
+        }
+    }
+}
+
+
+@media (max-width:1400px){
+    .message{
+        padding: 70px 170px;
+    }
+}
+@media (max-width:1200px){
+    .message{
+        padding: 50px 120px;
+    }
+}
+@media (max-width:992px){
+    .message{
+        padding: 50px 70px;
+    }
+}
+
+
+
+@media (max-width:992px){
+    .message{
+        padding: 30px 50px;
+        form{
+            padding: 40px;
+            fieldset{
+                font-size: 26px;
+            }
+            input{
+                font-size: 16px;
+            }
+            button{
+                padding: 12px 20px;
+                font-size: 16px;
+            }
+        }
+    }
+}
+@media (max-width: 768px){
+    .message{
+        padding: 30px 50px;
+        form{
+            padding: 40px;
+            fieldset{
+                font-size: 26px;
+            }
+            input{
+                font-size: 14px;
+                padding: 8px;
+            }
+            textarea{
+                font-size: 13px;
+                height: 100px;
+            }
+            button{
+                padding: 10px 20px;
+                font-size: 14px;
+            }
+        }
+    }
+}
